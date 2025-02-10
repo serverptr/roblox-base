@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core\kmodule\driver_impl.cpp" />
+    <ClCompile Include="core\framework\shadow_engine\cheat.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\types\color3\color3.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\coordinitate_frame\coordinitate_frame.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\matrix\matrix.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\matrix3\matrix3.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\matrix4\matrix4.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\ray\ray.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\vector2\vector2.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\vector3\vector3.h" />
+    <ClCompile Include="core\framework\rbx_engine\types\vector4\vector4.h" />
+    <ClCompile Include="core\entry.cxx" />
+    <ClCompile Include="core\kmodule\mapper\intel.cpp" />
+    <ClCompile Include="core\kmodule\mapper\kd.cpp" />
+    <ClCompile Include="core\kmodule\mapper\portable.cpp" />
+    <ClCompile Include="core\kmodule\mapper\service.cpp" />
+    <ClCompile Include="core\kmodule\mapper\utils.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\task_scheduler\task_scheduler.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\instance\instance.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\datamodel\datamodel.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\render_view\render_view.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\players\player.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\workspace\workspace.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\visual_engine\visual_engine.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\script_context\script_context.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\performance_stats\performance_stats.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\model_instance\model_instance.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\lighting\lighting.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\humanoid\humanoid.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\camera\camera.cpp" />
+    <ClCompile Include="core\framework\rbx_engine\part\part.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\kmodule\driver_impl.hpp" />
+    <ClInclude Include="BitSync\BitSync.h" />
+    <ClInclude Include="BitSync\skCrypter.h" />
+    <ClInclude Include="core\library\json\json.hpp" />
+    <ClInclude Include="core\framework\rbx_engine\rbx_engine.hpp" />
+    <ClInclude Include="core\framework\rbx_engine\offsets\offsets.h" />
+    <ClInclude Include="core\kmodule\mapper\include\intel.hpp" />
+    <ClInclude Include="core\kmodule\mapper\include\intel_resource.hpp" />
+    <ClInclude Include="core\kmodule\mapper\include\kd.hpp" />
+    <ClInclude Include="core\kmodule\mapper\include\ntt.hpp" />
+    <ClInclude Include="core\kmodule\mapper\include\portable.hpp" />
+    <ClInclude Include="core\kmodule\mapper\include\service.hpp" />
+    <ClInclude Include="core\kmodule\mapper\include\utils.hpp" />
+    <ClInclude Include="core\kmodule\mapper\data.hpp" />
+    <ClInclude Include="core\kmodule\mapper\raw_driver.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="core\library\library_x64.lib" />
+  </ItemGroup>
+</Project>
